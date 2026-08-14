@@ -10,7 +10,7 @@
 	--fg-muted: rgba(245, 245, 246, 0.65);
 	--accent: #e8734a;
 	--border: rgba(255, 255, 255, 0.12);
-	--max-width: 860px;
+	--max-width: 1000px;
 	--header-height: 4rem;
 	--radius: 6px;
 }
@@ -29,6 +29,7 @@ body {
 	color: var(--fg);
 	font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, sans-serif;
 	font-weight: 300;
+	font-size: 1.3rem;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
 }
@@ -40,11 +41,11 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 2.25rem;
+	font-size: 3.25rem;
 }
 
 h2 {
-	font-size: 1.75rem;
+	font-size: 2.4rem;
 	letter-spacing: 0.15rem;
 	text-transform: uppercase;
 	border-bottom: 1px solid var(--border);
@@ -53,7 +54,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.25rem;
+	font-size: 1.65rem;
 	color: var(--fg);
 }
 
@@ -111,7 +112,7 @@ li {
 .site-title {
 	color: var(--fg);
 	font-weight: 600;
-	font-size: 1.1rem;
+	font-size: 1.35rem;
 	letter-spacing: 0.1rem;
 }
 
@@ -122,12 +123,12 @@ li {
 
 #site-nav {
 	display: flex;
-	gap: 1.75rem;
+	gap: 2rem;
 }
 
 #site-nav a {
 	color: var(--fg-muted);
-	font-size: 0.95rem;
+	font-size: 1.15rem;
 	letter-spacing: 0.05rem;
 	text-transform: uppercase;
 }
@@ -229,10 +230,6 @@ main {
 	border: 1px solid var(--border);
 }
 
-.publications-link {
-	margin-top: 1.5rem;
-}
-
 .button {
 	display: inline-flex;
 	align-items: center;
@@ -310,7 +307,7 @@ main {
 	}
 
 	h1 {
-		font-size: 1.75rem;
+		font-size: 2.4rem;
 	}
 
 	.cv-embed {
